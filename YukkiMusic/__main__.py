@@ -68,7 +68,7 @@ async def init():
         LOGGER("YukkiMusic").error(
             "[ERROR] - \n\nPlease turn on your Logger Group's Voice Call. Make sure you never close/end voice call in your log group"
         )
-        sys.exit()
+        #sys.exit()
     except:
         pass
     await Yukki.decorators()
